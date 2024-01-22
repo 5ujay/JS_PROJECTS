@@ -1,0 +1,33 @@
+.calculator {
+  border: 2px solid rgb(111, 108, 108);
+  width: fit-content;
+  height: fit-content;
+  border-radius: 0.2rem;
+  padding: 10px;
+}
+
+.inputdiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#input {
+  outline: none;
+  border: grey 2px solid;
+  padding: 10px;
+}
+
+.btns {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: fit-content;
+  gap: 10px;
+}
+
+.btns button {
+  width: 60px;
+  height: 60px;
+  font-size: 1.5rem;
+}

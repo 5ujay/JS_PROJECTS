@@ -1,0 +1,25 @@
+table,
+th,
+td {
+  border: 1px solid whitesmoke;
+  width: 200px;
+  height: 50px;
+}
+
+body {
+  background-color: rgb(35, 33, 33);
+  color: white;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+  gap: 2rem;
+}
+
+.key {
+  font-size: 2rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}

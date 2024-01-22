@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="head">
+      <h1 id="heading">Todo App</h1>
+      <img
+        src="https://i0.wp.com/theicom.org/wp-content/uploads/2016/03/js-logo.png?fit=500%2C500&ssl=1&w=640"
+        height="50px"
+        alt=""
+      />
+    </div>
+
+    <div class="HeadConatiner">
+      <input type="text" placeholder="Enter your todo" id="todoInput" />
+      <input type="date" name="" id="todoDate" />
+      <button onclick="addTodo() " id="addBtn">ADD</button>
+    </div>
+    <p id="emptyMsg"></p>
+
+    <div class="todoContainer"></div>
+  </body>
+  <script src="./script.js"></script>
+</html>
